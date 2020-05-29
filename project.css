@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+main, header,footer{
+	font-family: 'Montserrat', sans-serif;
+}
+header{
+	position: fixed;
+	background-image: url('https://cdn.pixabay.com/photo/2018/09/27/09/18/web-3706551_960_720.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	height: 100px;
+	margin-left: -8px;
+	margin-top: -10px;
+	z-index: 1000;
+
+
+}
+a{
+	color:white;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+.prologue{
+	border: double;
+	width: 80%;
+	height: 850px;
+	margin-left: 75px;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background: rgb(211, 211, 211, 0.8);
+	z-index: -1;		
+	
+}
+.content{
+	background: rgb(211, 211, 211, 0.8);
+	border: double;
+	width: 80%;
+	height: 100%;
+	margin-left: 200px;
+	padding-top: 120px;
+
+
+}
+
+footer{
+	background-color:  grey;
+	opacity: 0.5;
+	width:102%;
+	height: 100px;
+	margin-left: -8px;
+	margin-bottom: -10px;
+	text-align: center;
+	padding-top: 10px;
+
+
+}
+.info{
+	display:block;
+	position: absolute;
+	top: 200px;
+	font-size: 20px;
+}
+.sign{
+	display: block;
+	text-align: center;
+}
+main{
+	background-image: url('https://ak.picdn.net/shutterstock/videos/17600137/thumb/1.jpg');
+	text-align: center;
+
+	}
+.logo{
+	display: inline-block;
+	font-family: sans-serif;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+.card{
+	width: 25%;
+	height: 60px;
+	margin-top: 120px;
+	text-align: center;
+	border: solid;
+	margin-right: 5px;
+	overflow: hidden;
+}
+.card:hover{
+	height: 350px;
+	transition: 1s;
+
+}
+.source{
+	color: black;
+}
+
+nav{
+	display: inline-block;
+}
+li{
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+	margin-left: 225px;
+}
+.l1{
+	color: white;
+}
+
+#data{
+	position: relative;
+	left: 300px;
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/17/20/22/analytics-3088958_960_720.jpg);
+	width: 900px;
+	height: 500px;
+
+}
+#games{
+	background-image: url(https://picjumbo.com/wp-content/uploads/playstation-4-gaming-controller_free_stock_photos_picjumbo_HNCK9167-2210x1474.jpg);
+	width: 900px;
+	height: 500px;
+	background-size: cover;
+	position: relative;
+	left: 270px;
+}
+#web{
+	background-image: url(https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg);
+	width: 900px;
+	height: 500px;
+	background-size: cover;
+	position: relative;
+	left: 270px;
+}
